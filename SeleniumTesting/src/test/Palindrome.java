@@ -5,21 +5,14 @@ import java.util.Scanner;
 public class Palindrome {
 		public static void main (String args[]) {	
 			
-			//String Palindrome
+//************************************String Palindrome******************************************************************//
 		//StringPalindromeMethod1();
 		//StringPalindromeMethod2();
 		//StringPalindromeMethod3();
-			//Number Palindrome
+//************************************Number Palindrome******************************************************************//
 		//NumberPalindromeMethod1();	
 		//NumberPalindromeMethod2();
 		NumberPalindromeMethod3();
-		
-		System.out.println("Do you wish to continue");
-		System.out.println("Type Yes or No");
-		Scanner Userip = new Scanner(System.in);
-		String Useripchoice = Userip.next();
-		if(Useripchoice.equals("Yes")) {
-		}
 		
 	}
 	public static void StringPalindromeMethod1() {
